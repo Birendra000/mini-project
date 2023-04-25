@@ -1,13 +1,168 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  color: black;
+}
+.mainheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px;
+  background-color: rgba(0, 0, 0, 0.397);
+}
+.headerlist {
+  display: flex;
+}
+.headerlistitem {
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.headerlistitem,
+.link {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  font-size: large;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.img-heading {
+  width: 50px;
+  height: 50px;
+}
+.headercart {
+  position: relative;
+}
+div.humberofitems {
+  border: 1px solid black;
+  width: 15px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  right: -3px;
+  background-color: rgba(0, 255, 255, 0.159);
+}
+/* a:hover,
+a.npm startactive {
+  color: #17cf97;
+} */
+
+.link:active {
+  color: red;
+}
+
+/* ul,
+li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+} */
+/* .formobile {
+  color: white;
+  font-size: x-large;
+} */
+/* @media only screen and (max-width: 600px) {
+  .headermainheadermain {~  
+    display: none;
+  } */
+
+/* .mobiledisplay {
+  display: none;
+} */
+
+/* FROM HERE FEATURE PRODUCT PAGE  */
+
+img.product--image {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product-category {
+  font-size: 15px;
+  font-weight: 15px;
+  text-align: center;
+}
+.card-flex {
+  font-size: 15px;
+  width: 200px;
+}
+.card-flex {
+  display: inline;
+  text-align: center;
+}
+
+.grid-column-second {
+  display: flex;
+  justify-content: space-around; /* or any other value for alignment */
+  flex-wrap: wrap;
+}
+.main--container {
+  width: 250px; /* or any other value for the card width */
+}
+.main-imaged {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-feature-container {
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-size: larger;
+  padding-bottom: 10px;
+  padding-top: 1em;
+  outline: 1.4rem solid rgba(108, 103, 103, 0.181);
+}
+.feature--conatiner {
+  padding-left: 37px;
+}
+.main--container {
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  animation: border-animation 2s infinite;
+  /* background-image: linear-gradient(to bottom right, #ee9ca7, #ffdde1); */
+}
+.first-data,
+.feature--heading {
+  color: rgb(5 48 48 / 79%);
+}
+.feature--heading {
+  font-size: 24px;
+  line-height: 0;
+}
+.first-data {
+  line-height: 0;
+}
+.main--container {
+  opacity: 0.8;
+}
+.main--container:hover {
+  opacity: 1;
+}
+@keyframes border-animation {
+  0% {
+    border-color: #ccc;
+  }
+  50% {
+    border-color: rgb(28, 11, 11);
+  }
+  100% {
+    border-color: #ccc;
+  }
+}
+.link-without-underline {
+  text-decoration: none;
+}
+.single--page--container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Producted.js */
+
+img.product--image {
+  width: 100%;
 }
